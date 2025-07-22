@@ -1,0 +1,6 @@
+numbers = [5, 2, 8, 4, 7]
+total = 0
+for num in numbers:
+    total += num
+mean = total / len(numbers)
+print("Mean (Average):", mean)

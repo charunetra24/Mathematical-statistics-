@@ -1,0 +1,8 @@
+numbers = [5, 2, 8, 4, 7]
+sorted_numbers = sorted(numbers)  # [2, 4, 5, 7, 8]
+middle = len(sorted_numbers) // 2 
+if len(sorted_numbers) % 2 == 1:
+    median = sorted_numbers[middle]
+else:
+    median = (sorted_numbers[middle-1] + sorted_numbers[middle]) / 2
+print("Median:", median)
